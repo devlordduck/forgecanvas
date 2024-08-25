@@ -1,0 +1,36 @@
+{
+  "name": "forge.canvas",
+  "version": "1.0.0",
+  "description": "A forgescript extension that allows you to create and edit images with ease.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && echo Done Compiling! && node dist/__tests__/index.js",
+    "docgen": "tsc && typedoc src/index.ts && node dist/docgen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devlordduck/forge.canvas.git"
+  },
+  "keywords": [
+    "forgescript",
+    "forge",
+    "canvas",
+    "image",
+    "png",
+    "jpeg"
+  ],
+  "author": "lordex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devlordduck/forge.canvas/issues"
+  },
+  "homepage": "https://github.com/devlordduck/forge.canvas#readme",
+  "devDependencies": {
+    "@tryforge/forgescript": "^1.4.0",
+    "typedoc": "^0.26.6",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.53"
+  }
+}
